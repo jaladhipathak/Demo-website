@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <script>
+        $(document).ready(function () {
+            $(".button-collapse").sideNav({
+                menuWidth:300,
+                edge:'left',
+                closeOnclick:false,
+                draggable:true,
+
+            });
+            //$('.button-collapse').sideNav('show');
+        })
+    </script>
+    <style>
+        body{
+            background-color:#E3F2FD;
+        }
+        h1{
+            color: #0D47A1;
+        }
+    </style>
+</head>
+<body>
+    <nav style="background-color: #1565C0">
+        <div class="nav-wrapper">
+            <a href="#" class="click-to-toggle button-collapse show-on-large" data-activates="slide-out" style="margin-left: 1%"><i class="material-icons">menu</i></a>
+            <ul id="slide-out" class="side-nav" style="background-color: #1565c0">
+                <li><a href="index.html" style="color:#E3F2FD;margin-top: 7%">Home</a> </li>
+                <li><a href="events.html" style="color:#E3F2FD;">Events</a> </li>
+            </ul>
+            <a href="index.html" class="brand-logo" >Udaan2k18</a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col s10">
+                <img src="udaan%20logo.png" width="90%" height="90%" style="margin-left: 12%;margin-top: 5%">
+            </div>
+        </div>
+        <div class="row">
+            <h1 align="center" style="font-family: 'Lobster',cursive; margin-top: 2%">Stay Tuned...</h1>
+        </div>
+
+    </div>
+
+
+
+</body>
+</html>
