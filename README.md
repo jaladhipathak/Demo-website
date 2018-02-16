@@ -5,5 +5,5 @@
 <dd>IT 3rd Year</dd>
 <dd>Contact at: jaladhipathak@hotmail.com</dd>
 <dt>Repository Overview</dt>
-<dd>This repository contains a demo website created for selection for developers team bvm. This front-end website is designed on Materialize framework. It contains basic homepage and another page for events.</dd>
+<dd>This repository contains a demo website created for selection for developers team BVM. This front-end website is designed on Materialize framework. It contains basic homepage and another page for events.</dd>
 </dl>
