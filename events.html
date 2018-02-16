@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Events</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <script>
+        $(document).ready(function () {
+            $(".button-collapse").sideNav({
+                menuWidth:300,
+                edge:'left',
+                closeOnclick:false,
+                draggable:true
+
+            });
+            //$('.button-collapse').sideNav('show');
+        })
+    </script>
+    <style>
+        body{
+            background-color:#E3F2FD;
+        }
+        p{
+            color: darkblue;
+        }
+    </style>
+</head>
+<body>
+<nav style="background-color: #1565C0">
+    <div class="nav-wrapper">
+        <a href="#" class="click-to-toggle button-collapse show-on-large" data-activates="slide-out" style="margin-left: 1%"><i class="material-icons">menu</i></a>
+        <ul id="slide-out" class="side-nav" style="background-color: #1565c0">
+            <li><a href="index.html" style="color:#E3F2FD;margin-top: 7%">Home</a> </li>
+            <li><a href="events.html" style="color:#E3F2FD;">Events</a> </li>
+        </ul>
+        <a href="index.html" class="brand-logo" >Udaan2k18</a>
+    </div>
+    <div class="container">
+        <div class="row" style="margin-top: 5%">
+            <div class="col s7 m5 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/cmp.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">CS/IT events<i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">CS/IT events<i class="material-icons right">close</i></span>
+                        <p>Brain Twisters for all the coders</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s7 m5 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/mech.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Mechanical events<i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Mechanical events<i class="material-icons right">close</i></span>
+                        <p>For all Mechanical Masterminds</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s7 m5 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/electrical.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Electrical events<i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Electrical events<i class="material-icons right">close</i></span>
+                        <p>For all Electrical Enthusiasts</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col s7 m5 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/civil.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Civil events<i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Civil events<i class="material-icons right">close</i></span>
+                        <p>For all Civil Constructors</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s7 m5 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/electronics.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Electronics events<i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Electronics events<i class="material-icons right">close</i></span>
+                        <p>For all Electronics Engineers</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s7 m5 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/nontech.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Non-tech events<i class="material-icons right">more_vert</i></span>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Non-tech events<i class="material-icons right">close</i></span>
+                        <p>for all students of different branches</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</nav>
+</body>
+</html>
